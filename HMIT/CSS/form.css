@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    display: flex;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 50px;
+    margin-top: 10px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+}
+
+.wrap .add {
+    height: 650px;
+}
+
+.wrap .picture {
+    height: 500px;
+}
+
+.wrap .personal {
+    height: 680px;
+}
+
+.wrap .reset {
+    height: 500px;
+}
+
+.wrapper p {
+    color: white;
+    text-align: center;
+    font-family: Gabriola;
+    font-size: large;
+}
+
+.wrapper .img {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+@media(max-width: 800px) {
+    .wrap {
+        flex-direction: column;
+    }
+}
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.form-box h2 {
+    font-size: 2em;
+    color: #faf6fc;
+    text-align: center;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: black;
+    font-family: Gabriola;
+    font-size: large;
+}
+
+input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Gabriola;
+    font-size: large;
+    color: white;
+}
+
+.able {
+    background: transparent;
+}
+
+.submit-button {
+    width: 100%;
+    height: 45px;
+    background: #415C39;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #faf6fc;
+    font-weight: 500;
+}
+
+.submit-button:hover {
+    background: #936242;
+}
+
+.submit-add {
+    width: 92%;
+    margin-left: 50px;
+}

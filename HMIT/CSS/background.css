@@ -1,0 +1,33 @@
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Resources/Backgrounds/crop\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: slider 20s infinite linear;
+}
+
+@keyframes slider {
+    0% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Resources/Backgrounds/crop\ \(1\).jpg);
+    }
+    20% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Resources/Backgrounds/crop\ \(2\).jpg);
+    }
+    40% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Resources/Backgrounds/crop\ \(3\).jpg);
+    }
+    60% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Resources/Backgrounds/crop\ \(4\).jpg);
+    }
+    80% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Resources/Backgrounds/crop\ \(5\).jpg);
+    }
+}

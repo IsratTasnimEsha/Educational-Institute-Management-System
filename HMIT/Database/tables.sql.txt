@@ -1,0 +1,73 @@
+create table faculty_members (
+imageUrl varchar(300),
+teacher_id char(4) primary key,
+teacher_name varchar(50) not null,
+grade number not null,
+designation varchar(30) not null,
+department varchar(50) not null,
+phone varchar(20) not null,
+address varchar(50),
+join_date date not null,
+net_salary number not null,
+gross_salary number not null,
+email varchar(50) not null,
+password varchar(32) not null);
+
+create table students (
+imageUrl varchar(300),
+student_name varchar(50) not null,
+student_id char(7) primary key,
+department varchar(50) not null,
+batch char(4) not null,
+year varchar(7) not null,
+semester varchar(7) not null,
+phone char(11) not null,
+advisor_name varchar(50) not null,
+father_name varchar(50) not null,
+mother_name varchar(50) not null,
+address varchar(50),
+email varchar(50) not null,
+password varchar(32) not null);
+
+create table courses (
+course_no char(4) primary key,
+course_title varchar(50) not null,
+credit number not null);
+
+create table departments (
+department_name varchar(50),
+department_id char(2) primary key,
+year number not null,
+semester number not null,
+course_no char(4) not null,
+course_title varchar(50) not null,
+teacher_id char(4) not null,
+teacher_name varchar(50) not null,
+foreign key(course_no) references courses(course_no),
+foreign key(teacher_id) references faculty_members(teacher_id));
+
+create table registration (
+student_id char(7) not null,
+department_id char(2) not null,
+year number not null,
+semester number not null,
+course_no number not null,
+course_title varchar(50) not null,
+credit number not null,
+primary key (student_id, course_no),
+foreign key(student_id) references students);
+
+create table result (
+student_id char(8) primary key,
+course_no number not null,
+course_title varchar(50) not null,
+credit number not null,
+grade_point number not null,
+letter_grade varchar(2) not null,
+foreign key(student_id, course_no) references registration);
+
+create table notice (
+for_whom varchar(50) not null,
+date_time timestamp primary key,
+subject varchar(300) not null,
+imageUrl varchar(300) not null);
