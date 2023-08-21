@@ -114,6 +114,9 @@ https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/asset
 We welcome contributions! To report bugs or suggest improvements, please open an issue or submit a pull request.
 
 ## Author
+
 Israt Tasnim Esha,
-Computer Science And Engineering,
+
+Dept. Of Computer Science And Engineering,
+
 Khulna University Of Engineering And Technology.
