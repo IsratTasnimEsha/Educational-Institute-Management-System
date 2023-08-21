@@ -115,8 +115,6 @@ We welcome contributions! To report bugs or suggest improvements, please open an
 
 ## Author
 
-Israt Tasnim Esha,
-
-Dept. Of Computer Science And Engineering,
-
-Khulna University Of Engineering And Technology.
+**Israt Tasnim Esha**  
+*Department of Computer Science and Engineering*  
+*Khulna University of Engineering and Technology*
