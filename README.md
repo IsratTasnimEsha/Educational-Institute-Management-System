@@ -61,8 +61,6 @@ https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/asset
 
 https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/ff43dbf5-04b9-4f4f-8d0c-0071c3296623
 
-https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/5b245679-79da-4c6a-900f-7e012d6685b5
-
 ## Admin Portal
 
 ### Student Information Management: Admission, Update And Deletion
@@ -75,7 +73,7 @@ https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/asset
 
 ### Faculty Information Management: Recruitment, Update And Deletion
 
-https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/b17594de-4e4d-428a-964c-ada31eb0e0d1
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/b1e8fddc-f33f-4d6e-b128-a8dfb165ddfe
 
 ### Department Course Management: Addition, Update And Deletion
 
@@ -93,7 +91,7 @@ https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/asset
 
 ### Student Course Registration
 
-https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/ec4a6db2-f4c2-4f9e-82c3-b5ba156c8d1d
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/d0502659-15a9-4dbe-8726-739dee9d592f
 
 ### Student Course Registration Approval and Result Evaluation
 
@@ -116,4 +114,6 @@ https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/asset
 We welcome contributions! To report bugs or suggest improvements, please open an issue or submit a pull request.
 
 ## Author
-Israt Tasnim Esha
+Israt Tasnim Esha,
+Computer Science And Engineering,
+Khulna University Of Engineering And Technology.
