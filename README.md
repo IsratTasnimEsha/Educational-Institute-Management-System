@@ -1,7 +1,7 @@
 # Educational-Institute-Management-System
 
 <p align="center">
-  <img src="https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/09840a8d-aabe-45f8-a1d9-a291173f6b72" alt="Logo" width="20%">
+  <img src="https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/09840a8d-aabe-45f8-a1d9-a291173f6b72" alt="Logo" width="22%">
 </p>
 
 Welcome to the **HM Institute of Technology Management Software** repository. This comprehensive solution, developed using Visual Studio, ASP.NET, and SQL Server Management Studio, empowers educational institutions to streamline administrative processes, enhance faculty management, and optimize student engagement.
@@ -52,15 +52,52 @@ The HM Institute of Technology Management Software is a robust platform crafted 
 5. **Communication**: Leverage custom email addresses for seamless communication.
 6. **Profiles**: Ensure to upload profile images for faculty members and students.
 
-## Screenshots
+## Screenshot And Video Demonstration
 
-![Admin Dashboard](path/to/screenshot1.png)
-![Faculty Portal](path/to/screenshot2.png)
-![Student Portal](path/to/screenshot3.png)
+### Public Viewing Homepage
 
-## Demo Videos
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/997eeaa6-ac6a-41fa-a5c2-0ae02cd189ab
 
-[Watch a detailed demo video showcasing the software's functionalities.]
+## Admin Portal
+
+### Faculty Designation And Salary Management
+
+![grades](https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/4d609171-29f4-492c-a602-549c088b99b2)
+
+### Student Admission
+
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/f541ce64-6e23-4886-8ecf-64ffb55c7aa8
+
+### Student Information Management: Update And Deletion
+
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/af97cc84-4f03-4c08-ab6d-944c8984fe5f
+
+### Department Course Management: Addition, Update And Deletion
+
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/dd865abd-30fd-46c2-8d0e-5ff9511dd577
+
+### Notice Management
+
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/b945a875-7ceb-469d-8d3b-086c873766f1
+
+## Faculty Portal
+
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/e2837c74-44ce-4308-95f7-058ab9b074ee
+
+## Student Portal
+
+### Student Course Registration
+
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/ec4a6db2-f4c2-4f9e-82c3-b5ba156c8d1d
+
+### Student Course Registration Approval and Result Evaluation
+
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/b52699cf-41a6-47fe-8987-6672410d5c60
+
+### Student Result Access
+
+https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/77a26603-15d1-4fca-87ac-d3bd9d50da84
+
 
 ## Technologies Used
 
