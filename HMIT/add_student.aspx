@@ -42,7 +42,7 @@
                     <div class="form-box login" style="display: flex; align-items: baseline">
                         <asp:FileUpload ID="FileUpload1" runat="server" />
                         <asp:Button ID="btnUpload" runat="server" Text="Upload" Style="width: 30%" OnClick="btnUpload_Click" CssClass="submit-button" />
-                        <asp:Label ID="lblMessage" runat="server" Text="43"></asp:Label>
+                        <asp:Label ID="lblMessage" runat="server" Text="1"></asp:Label>
                     </div>
                 </div>
             </div>

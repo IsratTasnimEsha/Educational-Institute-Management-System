@@ -2,79 +2,121 @@ create database hmit
 
 use hmit
 
---drop table notice;
---drop table result;
---drop table registration;
---drop table departments;
---drop table courses;
---drop table students;
+--drop table tblImages
+Create table tblImages(
+Id int primary key identity,
+Name nvarchar(255),
+Size int,
+ImageData varbinary(max))
+Go
+
+Create procedure spUploadImage
+@Name nvarchar(255),
+@Size int,
+@ImageData varbinary(max),
+@NewId int output
+as
+Begin
+    Insert into tblImages
+    values (@Name, @Size, @ImageData)
+
+    Select @NewId = SCOPE_IDENTITY()
+End
+Go
+
+Create procedure spGetImageById
+@Id int
+as
+Begin
+    Select ImageData
+    from tblImages where Id=@Id
+End
+Go
+--select * from tblImages;
+
+--drop table grades;
+create table grades(
+grade varchar(50),
+designation varchar(50),
+starting_salary varchar(50),
+maximum_salary varchar(50));
+--select * from grades;
+
 --drop table faculty_members;
-
 create table faculty_members (
-imageUrl varchar(300) not null,
-teacher_name varchar(50) not null,
-department varchar(50) not null,
-phone varchar(20) not null,
+teacher_name varchar(50),
+department varchar(50),
+phone varchar(50),
 t_address varchar(50),
-designation varchar(30) not null,
-salary int not null,
-teacher_id char(4) primary key,
-grade varchar(2) not null,
-email varchar(50) not null,
-pass varchar(32) not null);
+designation varchar(50),
+join_date date,
+salary varchar(50),
+teacher_id varchar(50),
+grade varchar(50),
+email varchar(50),
+pass varchar(50),
+imageId varchar(50));
+--select * from faculty_members;
 
+--drop table students;
 create table students (
-imageUrl varchar(300) not null,
-student_name varchar(50) not null,
-department varchar(50) not null,
-phone char(11) not null,
-father_name varchar(50) not null,
-mother_name varchar(50) not null,
+student_name varchar(50),
+department varchar(50),
+phone varchar(50),
+father_name varchar(50),
+mother_name varchar(50),
 s_address varchar(50),
-student_id char(7) primary key,
-advisor_name varchar(50) not null,
-email varchar(50) not null,
-pass varchar(32) not null);
+batch varchar(50),
+student_id varchar(50),
+email varchar(50),
+pass varchar(50),
+imageId varchar(50));
+--select * from students;
 
+--drop table courses;
 create table courses (
-course_no char(4) primary key,
-course_title varchar(50) not null,
-credit float not null);
+department_id varchar(50),
+running_year varchar(50),
+semester varchar(50),
+course_no varchar(50),
+course_title varchar(50),
+credit varchar(50),
+teacher_id varchar(50),
+teacher_name varchar(50));
+--select * from courses;
 
-create table departments (
-department_name varchar(50) not null,
-department_id char(2) primary key,
-running_year char(1) not null,
-semester char(1) not null,
-course_no char(4) not null,
-course_title varchar(50) not null,
-teacher_id char(4) not null,
-teacher_name varchar(50) not null,
-foreign key(course_no) references courses,
-foreign key(teacher_id) references faculty_members);
-
+--drop table registration;
 create table registration (
-student_id char(7) not null,
-department_id char(2) not null,
-running_year char(1) not null,
-semester char(1) not null,
-course_no char(4) not null,
-course_title varchar(50) not null,
-credit float not null,
-primary key (student_id, course_no),
-foreign key(student_id) references students);
+student_id varchar(50),
+department_id varchar(50),
+running_year varchar(50),
+semester varchar(50),
+course_no varchar(50),
+course_title varchar(50),
+credit varchar(50),
+r_status varchar(50));
+select * from registration;
 
+--drop table result;
 create table result (
-student_id char(7) primary key,
-course_no char(4) not null,
-course_title varchar(50) not null,
-credit float not null,
-grade_point float not null,
-letter_grade varchar(2) not null,
-foreign key(student_id, course_no) references registration);
+student_id varchar(50),
+department_id varchar(50),
+running_year varchar(50),
+semester varchar(50),
+course_no varchar(50),
+course_title varchar(50),
+credit varchar(50),
+marks varchar(50),
+grade_point varchar(50),
+letter_grade varchar(50),
+attempt varchar(50));
+--select * from result;
 
+-- drop table notice;
 create table notice (
-for_whom varchar(50) not null,
-date_time timestamp primary key,
-sub varchar(300) not null,
-imageUrl varchar(300) not null);
+date_time varchar(30),
+from_whom varchar(50),
+to_whom varchar(50),
+sub varchar(300),
+msg varchar(3000));
+-- select * from notice;
