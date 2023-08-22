@@ -25,7 +25,7 @@ The HM Institute of Technology Management Software is a robust platform crafted 
 - **Admin Portal**: Manage faculty members, students, courses, notices, and more with ease.
 - **Faculty Portal**: Update personal info, manage courses, and streamline communication.
 - **Student Portal**: Register for courses, view results, and stay informed.
-- **Custom Email Integration**: Role-based email addresses for efficient communication (admin@hmit.edu, t+id@hmit.edu, s+id@hmit.edu).
+- **Custom Email Integration**: Role-based email addresses for efficient communication (admin@hmit.edu for admin, 't'+5_digits_teacher_id+'@hmit.edu' for faculty_members, 's'+7_digits_student_id+'@hmit.edu' for students).
 - **Smart Auto-Fill**: Minimize data entry errors with auto-filled fields.
 - **Course Number Generation**: Automatic course number generation based on department, year, and semester.
 - **Graduation Tracking**: Monitor student progress and graduation eligibility.
