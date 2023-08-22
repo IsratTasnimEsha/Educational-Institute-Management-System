@@ -51,7 +51,7 @@ The HM Institute of Technology Management Software is a robust platform crafted 
 
 ## Video Demonstration
 
-### Public Viewing Homepage
+### Public Viewing Pages
 
 https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/997eeaa6-ac6a-41fa-a5c2-0ae02cd189ab
 
