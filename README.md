@@ -6,16 +6,6 @@
 
 Welcome to the **HM Institute of Technology Management Software** repository. This comprehensive solution, developed using Visual Studio, ASP.NET, and SQL Server Management Studio, empowers educational institutions to streamline administrative processes, enhance faculty management, and optimize student engagement.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Video Demonstration](#video-demonstration)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-
 ## Introduction
 
 The HM Institute of Technology Management Software is a robust platform crafted using Visual Studio, ASP.NET, and SQL Server Management Studio. It facilitates seamless management for administrators, faculty members, and students, ensuring an efficient educational experience.
@@ -112,6 +102,10 @@ https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/asset
 ## Contributing
 
 We welcome contributions! To report bugs or suggest improvements, please open an issue or submit a pull request.
+
+## Contact
+
+I'm here to assist you on your journey with the Educational Institute Management System. If you need help or want to share feedback, feel free to reach out to us at [israttasnimesha1046@gmail.com](mailto:israttasnimesha1046@gmail.com).
 
 ## Author
 
