@@ -105,7 +105,7 @@ We welcome contributions! To report bugs or suggest improvements, please open an
 
 ## Contact
 
-I'm here to assist you on your journey with the Educational Institute Management System. If you need help or want to share feedback, feel free to reach out to us at [israttasnimesha1046@gmail.com](mailto:israttasnimesha1046@gmail.com).
+I'm here to assist you on your journey with the Educational Institute Management System. If you need help or want to share feedback, feel free to reach out to me at [israttasnimesha1046@gmail.com](mailto:israttasnimesha1046@gmail.com).
 
 ## Author
 
