@@ -1,4 +1,4 @@
-# Educational-Institute-Management-System
+# Educational Institute Management System
 
 <p align="center">
   <img src="https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/09840a8d-aabe-45f8-a1d9-a291173f6b72" alt="Logo" width="22%">
@@ -90,7 +90,6 @@ https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/asset
 ### Student Result Access
 
 https://github.com/IsratTasnimEsha/Educational-Institute-Management-System/assets/88322977/77a26603-15d1-4fca-87ac-d3bd9d50da84
-
 
 ## Technologies Used
 
