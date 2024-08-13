@@ -108,6 +108,7 @@ I'm here to assist you on your journey with the Educational Institute Management
 
 ## Author
 
-**Israt Tasnim Esha**  
+**Israt Tasnim Esha** (1907090)  
+**CSE 3100 - Web Programming Laboratory**  
 *Department of Computer Science and Engineering*  
 *Khulna University of Engineering and Technology*
